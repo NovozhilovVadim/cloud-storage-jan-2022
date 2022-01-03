@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="544.0" prefWidth="340.0"
+      xmlns="http://javafx.com/javafx/8"
+      fx:controller="com.geekbrains.cloud.client.Clientcontroller"
+      xmlns:fx="http://javafx.com/fxml/1">
+
+      <ListView fx:id="listView" prefHeight="496.0" prefWidth="340.0" />
+      <TextField fx:id="textField" editable="false" onAction="#sendMessage" prefHeight="67.0" prefWidth="340.0" />
+
+</VBox>
