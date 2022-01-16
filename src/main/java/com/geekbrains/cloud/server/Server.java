@@ -5,8 +5,10 @@ import java.net.ServerSocket;
 import java.net.Socket;
 
 public class Server {
+    private static final int PORT = 8189;
+
     public static void main(String[] args) throws IOException {
-        ServerSocket server  = new ServerSocket(8189);
+        ServerSocket server  = new ServerSocket(PORT);
         System.out.println("Server started...");
         while (true){
             Socket socket = server.accept();
